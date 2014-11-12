@@ -7,7 +7,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=ibrdtn
+PKG_NAME:=ibrdtnd
 PKG_VERSION:=0.12.1
 PKG_RELEASE=0.1
 
@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/ibrdtnd/Default
   DEPENDS:=ibrcommon
-	URL:=http://
+	URL:=http://blah.com
 endef
 
 define Package/ibrdtnd/Default
