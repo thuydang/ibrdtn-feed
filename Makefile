@@ -83,7 +83,7 @@ endef
 
 define Package/ibrdtnd/install
 	$(INSTALL_DIR) $(1)/etc/config
-	$(INSTALL_CONF) $PKG_INSTALL_DIR/etc/config/ibrdtnd.conf $(1)/etc/config/ibrdtnd.conf
+	$(INSTALL_CONF) $(PKG_INSTALL_DIR)/etc/config/ibrdtnd.conf $(1)/etc/config/ibrdtnd.conf
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_INSTALL_DIR)/usr/bin/* $(1)/usr/bin/
 	$(INSTALL_DIR) $(1)/usr/sbin
