@@ -19,6 +19,7 @@ PKG_SOURCE_PROTO:=git
 PKG_MAINTAINER:=Thuy Dang <thuydang@github>
 
 PKG_FIXUP:=autoreconf
+PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
 #include $(INCLUDE_DIR)/cmake.mk
