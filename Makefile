@@ -37,7 +37,7 @@ define Package/ibrcommon
   CATEGORY:=Network
   SUBMENU:=Routing
   TITLE:=ibrdtn common
-	URL:=http://trac.ibr.cs.tu-bs.de/project-cm-2012-ibrdtn/wiki/source
+	URL:=http://trac.ibr.cs.tu-bs.de/project-cm-2012-ibrdtn/wiki/source/
 endef
   #DEPENDS:=+libubox
 
@@ -50,7 +50,7 @@ define Package/ibrdtnd
   CATEGORY:=Network
   SUBMENU:=Routing
   TITLE:=ibrdtn daemon and tools
-	URL:=http://trac.ibr.cs.tu-bs.de/project-cm-2012-ibrdtn/wiki/source
+	URL:=http://trac.ibr.cs.tu-bs.de/project-cm-2012-ibrdtn/wiki/source/
   DEPENDS:=+ibrcommon
 endef
 
