@@ -55,7 +55,7 @@ define Package/ibrdtnd
 endef
 
 define Package/ibrdtnd/description
-	$(call Package/ibrdtn/Default/description)
+	$(call Package/ibrdtnd/Default/description)
 	This package depends on ibrcommon
 endef
 
